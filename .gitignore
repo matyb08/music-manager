@@ -1,1 +1,3 @@
-config.ini
+config.json
+.idea/
+save-locations/
