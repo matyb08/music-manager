@@ -141,9 +141,9 @@ def get_args():
         formatter_class=argparse.RawTextHelpFormatter,
         epilog='''
 Examples:
-python3 musicmanager.py
-python3 musicmanager.py quick
-python3 musicmanager.py so 'https://music.youtube.com/watch?v=0hnwIedsoNI'
+python musicmanager.py
+python musicmanager.py quick
+python musicmanager.py so 'https://music.youtube.com/watch?v=0hnwIedsoNI'
  
 '''
     )
