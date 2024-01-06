@@ -1,0 +1,15 @@
+{
+	"savePathRoot": "/path/to/root/of/download/folder",
+	"quickDownloadPlaylistLink": "youtube_playlist_link_for_quick_download_option",
+	"playlist":
+	[
+		{
+			"name": "playlist name 1",
+			"link": "playlist_link"
+		},
+		{
+			"name": "playlist name 2 (add as many playlists as you want)",
+			"link": "playlist_link"
+		}
+	]
+}

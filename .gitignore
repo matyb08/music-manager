@@ -1,3 +1,5 @@
 config.json
 .idea/
 save-locations/
+logger.log
+.venv
