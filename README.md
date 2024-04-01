@@ -14,7 +14,7 @@ _used python 3.10_
 
 ```shell
 python3 -m venv .venv
-.venv/Scripts/activate
+source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```

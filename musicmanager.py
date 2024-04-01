@@ -35,6 +35,7 @@ class Playlist:
     def download(self):
         subprocess.run([
             'yt-dlp',
+            *(['--cookies', os.path.join(PROJECT_ROOT, 'music.youtube.com_cookies.txt')] if os.path.exists(os.path.join(PROJECT_ROOT, 'music.youtube.com_cookies.txt')) else ['--no-cookies']),
             '--extract-audio',
             '--audio-quality',
             '0',
@@ -144,7 +145,6 @@ Examples:
 python musicmanager.py
 python musicmanager.py quick
 python musicmanager.py so 'https://music.youtube.com/watch?v=0hnwIedsoNI'
- 
 '''
     )
 
